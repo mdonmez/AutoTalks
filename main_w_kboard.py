@@ -6,6 +6,7 @@ logging.basicConfig(level=logging.WARNING)
 from pydantic import BaseModel
 import os
 import json
+import keyboard # for keyboard input
 os.environ["TORCH_HOME"] = "C:/torch_cache" # this is special for my computer
 
 
@@ -27,7 +28,7 @@ chunk_generator = ChunkGenerator()
 transcript_matcher = TranscriptMatcher()
 
 # define person name, IMPORTANT: this is the name of the person you are transcribing
-PERSON_NAME = "yasin"
+PERSON_NAME = "elif"
 
 # define chunk file and transcript file
 chunk_file = f"data/chunks/{PERSON_NAME}.json"
@@ -82,7 +83,7 @@ def process_speech(live_text: str) -> str:
     speech_for_matching = re.sub(r'[^\w\s]', '', speech.lower())
     
     # Select relevant chunks from chunk_data
-    # i know its a bit complex but it works, gpt written code
+    # i know its a bit complex but it works, highly ai written code to get relevant partial chunks
     p, c, n = [x for x in chunk_data if x["matched_transcript"] == current_transcript_number - 1], [x for x in chunk_data if x["matched_transcript"] == current_transcript_number], [x for x in chunk_data if x["matched_transcript"] == current_transcript_number + 1]
     partial_chunks = p[-1:] if p else []
     partial_chunks += [x for x in chunk_data if x["matched_transcript"] == -1 and x["type"] == "hybrid" and (not p or x["chunk_number"] > p[-1]["chunk_number"]) and (not c or x["chunk_number"] < c[0]["chunk_number"])]
@@ -93,20 +94,22 @@ def process_speech(live_text: str) -> str:
     # primary search that are fast
     matcher_result = transcript_matcher.match_speech(speech_for_matching, partial_chunks, primary_threshold)
     
+    
     if matcher_result: # if primary search is successful
-        current_transcript_number = matcher_result.matched_transcript_number
+        new_transcript_number = matcher_result.matched_transcript_number
+        # current_transcript_number = new_transcript_number
         print( ProcessedResult(
-            matched_transcript_number=matcher_result.matched_transcript_number,
+            matched_transcript_number=new_transcript_number,
             operator="primary_matcher"
-
         )) # we can print the result
     else:
         # if primary search fails, try secondary search with all chunks
         matcher_result = transcript_matcher.match_speech(speech_for_matching, chunk_data, secondary_threshold)
         if matcher_result:
-            current_transcript_number = matcher_result.matched_transcript_number
+            new_transcript_number = matcher_result.matched_transcript_number
+            # current_transcript_number = new_transcript_number
             print( ProcessedResult(
-                matched_transcript_number=matcher_result.matched_transcript_number,
+                matched_transcript_number=new_transcript_number,
                 operator="secondary_matcher",
             ))
         else: # if secondary search fails, we can't match the speech
@@ -114,6 +117,15 @@ def process_speech(live_text: str) -> str:
                 matched_transcript_number=current_transcript_number,
                 operator="none",
             ))
+    difference = new_transcript_number - current_transcript_number
+    current_transcript_number = new_transcript_number
+    if difference > 0:
+        for _ in range(difference):
+            keyboard.press_and_release("right")
+    elif difference < 0:
+        for _ in range(-difference):
+            keyboard.press_and_release("left")
+
 
 if __name__ == "__main__":
     recorder = AudioToTextRecorder(
