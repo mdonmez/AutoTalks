@@ -1,0 +1,13 @@
+[project]
+name = "autotalks"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "keyboard>=0.13.5",
+    "nanoid>=2.0.0",
+    "orjson>=3.10.18",
+    "pydantic>=2.11.4",
+    "rapidfuzz>=3.13.0",
+]
