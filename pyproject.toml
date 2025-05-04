@@ -9,5 +9,6 @@ dependencies = [
     "nanoid>=2.0.0",
     "orjson>=3.10.18",
     "pydantic>=2.11.4",
+    "pypdf>=5.4.0",
     "rapidfuzz>=3.13.0",
 ]
