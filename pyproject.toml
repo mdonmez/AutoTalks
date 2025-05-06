@@ -8,7 +8,11 @@ dependencies = [
     "keyboard>=0.13.5",
     "nanoid>=2.0.0",
     "orjson>=3.10.18",
+    "psutil>=7.0.0",
     "pydantic>=2.11.4",
+    "pygetwindow>=0.0.9",
     "pypdf>=5.4.0",
+    "pywinauto>=0.6.9",
     "rapidfuzz>=3.13.0",
+    "selenium>=4.32.0",
 ]

@@ -1,0 +1,380 @@
+[
+    {
+        "chunk_number": 1,
+        "matched_transcript": 1,
+        "type": "normal",
+        "chunk_text": "hi im mikey nice to meet you",
+        "id": "0b5hwCKB_EzsD7InYvUTr"
+    },
+    {
+        "chunk_number": 2,
+        "matched_transcript": 1,
+        "type": "normal",
+        "chunk_text": "im mikey nice to meet you and",
+        "id": "5bMd1yQPPODRSC7d_bzGc"
+    },
+    {
+        "chunk_number": 3,
+        "matched_transcript": 1,
+        "type": "normal",
+        "chunk_text": "mikey nice to meet you and welcome",
+        "id": "MVDmFtJJkgdvX7Pu497w7"
+    },
+    {
+        "chunk_number": 4,
+        "matched_transcript": 1,
+        "type": "normal",
+        "chunk_text": "nice to meet you and welcome to",
+        "id": "D1PyQab7a_GaTXaa_cYS1"
+    },
+    {
+        "chunk_number": 5,
+        "matched_transcript": 1,
+        "type": "normal",
+        "chunk_text": "to meet you and welcome to my",
+        "id": "iBebpaIKQWfWe9zbs_BDX"
+    },
+    {
+        "chunk_number": 6,
+        "matched_transcript": 1,
+        "type": "normal",
+        "chunk_text": "meet you and welcome to my talk",
+        "id": "EQBJZ5VTUqP7vIj_qoKZK"
+    },
+    {
+        "chunk_number": 7,
+        "matched_transcript": 1,
+        "type": "normal",
+        "chunk_text": "you and welcome to my talk about",
+        "id": "m0KXnUUeLI2HMWm4OKxVX"
+    },
+    {
+        "chunk_number": 8,
+        "matched_transcript": 1,
+        "type": "normal",
+        "chunk_text": "and welcome to my talk about artificial",
+        "id": "S1-sn2Q3lG4oux_YeeHjq"
+    },
+    {
+        "chunk_number": 9,
+        "matched_transcript": 1,
+        "type": "normal",
+        "chunk_text": "welcome to my talk about artificial intelligence",
+        "id": "3_HCmL0vHwjAGbL57tnMC"
+    },
+    {
+        "chunk_number": 10,
+        "matched_transcript": 1,
+        "type": "normal",
+        "chunk_text": "to my talk about artificial intelligence im",
+        "id": "zakhQcKn93yyxp1l6zryE"
+    },
+    {
+        "chunk_number": 11,
+        "matched_transcript": 1,
+        "type": "normal",
+        "chunk_text": "my talk about artificial intelligence im excited",
+        "id": "u3v4idMdOX9gyydcmoJeM"
+    },
+    {
+        "chunk_number": 12,
+        "matched_transcript": 1,
+        "type": "normal",
+        "chunk_text": "talk about artificial intelligence im excited to",
+        "id": "ECbcRa26eMoHs92Qno2wu"
+    },
+    {
+        "chunk_number": 13,
+        "matched_transcript": 1,
+        "type": "normal",
+        "chunk_text": "about artificial intelligence im excited to share",
+        "id": "AnqxNhojXiR-4R_djRkwm"
+    },
+    {
+        "chunk_number": 14,
+        "matched_transcript": 1,
+        "type": "normal",
+        "chunk_text": "artificial intelligence im excited to share my",
+        "id": "qIcOfg-EmYMWuI169nf9M"
+    },
+    {
+        "chunk_number": 15,
+        "matched_transcript": 1,
+        "type": "normal",
+        "chunk_text": "intelligence im excited to share my thoughts",
+        "id": "jkqnj_SDy07ToWbYg0K-k"
+    },
+    {
+        "chunk_number": 16,
+        "matched_transcript": 1,
+        "type": "normal",
+        "chunk_text": "im excited to share my thoughts with",
+        "id": "QOTsajqmHd9dhblI7lDyG"
+    },
+    {
+        "chunk_number": 17,
+        "matched_transcript": 1,
+        "type": "normal",
+        "chunk_text": "excited to share my thoughts with you",
+        "id": "ZfP7FpJdn33bH70Zzengw"
+    },
+    {
+        "chunk_number": 18,
+        "matched_transcript": 1,
+        "type": "last",
+        "chunk_text": "to share my thoughts with you today",
+        "id": "ahBoI3r8GW90arTt04uhq"
+    },
+    {
+        "chunk_number": 19,
+        "matched_transcript": -1,
+        "type": "hybrid",
+        "chunk_text": "share my thoughts with you today yes",
+        "id": "pjUcSkYBFsYnr3vX00Qz-"
+    },
+    {
+        "chunk_number": 20,
+        "matched_transcript": -1,
+        "type": "hybrid",
+        "chunk_text": "my thoughts with you today yes lets",
+        "id": "aMuekZhPMhcvpdlQW1Vng"
+    },
+    {
+        "chunk_number": 21,
+        "matched_transcript": -1,
+        "type": "hybrid",
+        "chunk_text": "thoughts with you today yes lets start",
+        "id": "gyJ680HLMt8ouujK1lF3c"
+    },
+    {
+        "chunk_number": 22,
+        "matched_transcript": -1,
+        "type": "hybrid",
+        "chunk_text": "with you today yes lets start with",
+        "id": "GQU5tKxIH4gd32Jqhuc5e"
+    },
+    {
+        "chunk_number": 23,
+        "matched_transcript": -1,
+        "type": "hybrid",
+        "chunk_text": "you today yes lets start with the",
+        "id": "Lv8k5GMrQJmbsYsoElhVX"
+    },
+    {
+        "chunk_number": 24,
+        "matched_transcript": -1,
+        "type": "hybrid",
+        "chunk_text": "today yes lets start with the basics",
+        "id": "VkvoM9pEYG0vB-0iXqviG"
+    },
+    {
+        "chunk_number": 25,
+        "matched_transcript": 2,
+        "type": "normal",
+        "chunk_text": "yes lets start with the basics what",
+        "id": "JsYAkGJCHij9QULuVKCR4"
+    },
+    {
+        "chunk_number": 26,
+        "matched_transcript": 2,
+        "type": "normal",
+        "chunk_text": "lets start with the basics what is",
+        "id": "YSZUkMErfKkmqB8FI2bwd"
+    },
+    {
+        "chunk_number": 27,
+        "matched_transcript": 2,
+        "type": "normal",
+        "chunk_text": "start with the basics what is artificial",
+        "id": "1F70VwfK9I4w3BGMnJWrd"
+    },
+    {
+        "chunk_number": 28,
+        "matched_transcript": 2,
+        "type": "normal",
+        "chunk_text": "with the basics what is artificial intelligence",
+        "id": "jttGy8T0uo3d3DqgaM5E_"
+    },
+    {
+        "chunk_number": 29,
+        "matched_transcript": 2,
+        "type": "normal",
+        "chunk_text": "the basics what is artificial intelligence artificial",
+        "id": "3-lxr0HYFu3dw6sw-z1NG"
+    },
+    {
+        "chunk_number": 30,
+        "matched_transcript": 2,
+        "type": "normal",
+        "chunk_text": "basics what is artificial intelligence artificial intelligence",
+        "id": "yrDFx_qQM9aIdUsJjwVIE"
+    },
+    {
+        "chunk_number": 31,
+        "matched_transcript": 2,
+        "type": "normal",
+        "chunk_text": "what is artificial intelligence artificial intelligence is",
+        "id": "YSvbTSOgCnVf9zrA6lED3"
+    },
+    {
+        "chunk_number": 32,
+        "matched_transcript": 2,
+        "type": "normal",
+        "chunk_text": "is artificial intelligence artificial intelligence is a",
+        "id": "ir0xYnKmqWbqnvSy0v4m-"
+    },
+    {
+        "chunk_number": 33,
+        "matched_transcript": 2,
+        "type": "normal",
+        "chunk_text": "artificial intelligence artificial intelligence is a way",
+        "id": "4InlUkt4DwytFyGULXnFW"
+    },
+    {
+        "chunk_number": 34,
+        "matched_transcript": 2,
+        "type": "normal",
+        "chunk_text": "intelligence artificial intelligence is a way to",
+        "id": "mrgPGrGMUW-RnwKvpyOam"
+    },
+    {
+        "chunk_number": 35,
+        "matched_transcript": 2,
+        "type": "normal",
+        "chunk_text": "artificial intelligence is a way to make",
+        "id": "51prTrwLqp1G_mFKX5EmT"
+    },
+    {
+        "chunk_number": 36,
+        "matched_transcript": 2,
+        "type": "normal",
+        "chunk_text": "intelligence is a way to make computers",
+        "id": "I9zYqiLmtd7jsD2O9FRO4"
+    },
+    {
+        "chunk_number": 37,
+        "matched_transcript": 2,
+        "type": "normal",
+        "chunk_text": "is a way to make computers think",
+        "id": "WUUP_o1TfUvzJ6asFywG0"
+    },
+    {
+        "chunk_number": 38,
+        "matched_transcript": 2,
+        "type": "normal",
+        "chunk_text": "a way to make computers think like",
+        "id": "dMu6CMa91usvGqX24CA63"
+    },
+    {
+        "chunk_number": 39,
+        "matched_transcript": 2,
+        "type": "normal",
+        "chunk_text": "way to make computers think like humans",
+        "id": "iF5J-90aTguxObbzoTMcC"
+    },
+    {
+        "chunk_number": 40,
+        "matched_transcript": 2,
+        "type": "normal",
+        "chunk_text": "to make computers think like humans or",
+        "id": "RUWEB52cWaDaDxVcjQ7-U"
+    },
+    {
+        "chunk_number": 41,
+        "matched_transcript": 2,
+        "type": "normal",
+        "chunk_text": "make computers think like humans or at",
+        "id": "fNBQ0kXAe37sgBiudX-FK"
+    },
+    {
+        "chunk_number": 42,
+        "matched_transcript": 2,
+        "type": "normal",
+        "chunk_text": "computers think like humans or at least",
+        "id": "d4TL9GnFi3DRUgW0tgdJ4"
+    },
+    {
+        "chunk_number": 43,
+        "matched_transcript": 2,
+        "type": "normal",
+        "chunk_text": "think like humans or at least make",
+        "id": "IporIlmyi45PDRa2e7sb3"
+    },
+    {
+        "chunk_number": 44,
+        "matched_transcript": 2,
+        "type": "normal",
+        "chunk_text": "like humans or at least make them",
+        "id": "9MD4p_6gWyHxNhPVSEkpZ"
+    },
+    {
+        "chunk_number": 45,
+        "matched_transcript": 2,
+        "type": "normal",
+        "chunk_text": "humans or at least make them do",
+        "id": "6rTKPk2ykHmQA7H73fXKG"
+    },
+    {
+        "chunk_number": 46,
+        "matched_transcript": 2,
+        "type": "normal",
+        "chunk_text": "or at least make them do things",
+        "id": "1uo-12ATDixaSLBVV_Phs"
+    },
+    {
+        "chunk_number": 47,
+        "matched_transcript": 2,
+        "type": "normal",
+        "chunk_text": "at least make them do things that",
+        "id": "KC3nlBV4jHh-acH8hpWUl"
+    },
+    {
+        "chunk_number": 48,
+        "matched_transcript": 2,
+        "type": "normal",
+        "chunk_text": "least make them do things that are",
+        "id": "wBLedCT8uOzmTN9zsQULp"
+    },
+    {
+        "chunk_number": 49,
+        "matched_transcript": 2,
+        "type": "normal",
+        "chunk_text": "make them do things that are similar",
+        "id": "GrmL6rQRXUIEnxvbuLCoq"
+    },
+    {
+        "chunk_number": 50,
+        "matched_transcript": 2,
+        "type": "normal",
+        "chunk_text": "them do things that are similar to",
+        "id": "RZhX6RzbCRqVEJAYXdgMs"
+    },
+    {
+        "chunk_number": 51,
+        "matched_transcript": 2,
+        "type": "normal",
+        "chunk_text": "do things that are similar to what",
+        "id": "xepzItR9821naBr9r6VV_"
+    },
+    {
+        "chunk_number": 52,
+        "matched_transcript": 2,
+        "type": "normal",
+        "chunk_text": "things that are similar to what humans",
+        "id": "vhxhYE0cQGLl27FsTbKYY"
+    },
+    {
+        "chunk_number": 53,
+        "matched_transcript": 2,
+        "type": "normal",
+        "chunk_text": "that are similar to what humans can",
+        "id": "tLj9tsjyhD81Ji2AGsMPA"
+    },
+    {
+        "chunk_number": 54,
+        "matched_transcript": 2,
+        "type": "normal",
+        "chunk_text": "are similar to what humans can do",
+        "id": "8mh3nlEURWllm8s4OKN9u"
+    }
+]
